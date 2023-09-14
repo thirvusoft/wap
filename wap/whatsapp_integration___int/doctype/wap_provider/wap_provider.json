@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:provider_name",
+ "creation": "2023-09-14 15:51:20.996127",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "provider_name",
+  "api_end_point",
+  "api_authentication",
+  "company"
+ ],
+ "fields": [
+  {
+   "fieldname": "provider_name",
+   "fieldtype": "Data",
+   "label": "Provider Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "api_end_point",
+   "fieldtype": "Data",
+   "label": "API End Point"
+  },
+  {
+   "fieldname": "api_authentication",
+   "fieldtype": "Data",
+   "label": " API Authentication "
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Table MultiSelect",
+   "label": "Company",
+   "options": "Companys"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-14 17:11:46.238619",
+ "modified_by": "Administrator",
+ "module": "Whatsapp Integration - Int",
+ "name": "WAP Provider",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
